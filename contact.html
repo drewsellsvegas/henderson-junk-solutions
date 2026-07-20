@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMXC5ZMP8S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KMXC5ZMP8S');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Contact Henderson Junk Solutions | Free Quote Henderson NV</title>
+  <meta name="description" content="Get a free junk removal quote in Henderson & Las Vegas, NV. Call (702) 490-9565 or fill out our form — we respond fast." />
+  <meta name="keywords" content="junk removal quote Henderson NV, contact junk removal Las Vegas, free junk removal estimate Henderson Nevada, junk hauling quote Las Vegas Valley" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://hendersonjunksolutions.com/contact" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hendersonjunksolutions.com/contact" />
+  <meta property="og:title" content="Free Junk Removal Quote Henderson NV | Contact Us" />
+  <meta property="og:description" content="Get a free junk removal quote in Henderson, NV. Call (702) 490-9565 or fill out our form — we respond within 1 business day!" />
+  <meta property="og:image" content="https://hendersonjunksolutions.com/HJSLOGO.png" />
+  <meta property="og:site_name" content="Henderson Junk Solutions" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Free Junk Removal Quote Henderson NV | Contact Henderson Junk Solutions" />
+  <meta name="twitter:description" content="Call (702) 490-9565 or fill out our form for a free junk removal estimate in Henderson & Las Vegas, NV." />
+  <meta name="twitter:image" content="https://hendersonjunksolutions.com/HJSLOGO.png" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="favicon-512.png" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+
+    /* ── Contact layout ──────────────────── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 64px;
+      align-items: start;
+    }
+
+    /* ── Contact info cards ──────────────── */
+    .contact-info { display: flex; flex-direction: column; gap: 16px; }
+
+    .info-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      box-shadow: var(--shadow-card);
+      transition: transform 0.2s;
+    }
+
+    .info-card:hover { transform: translateX(4px); }
+
+    .info-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      background: var(--blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+
+    .info-card h4 { font-size: 0.85rem; color: var(--gray); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+    .info-card p, .info-card a { font-size: 0.97rem; color: var(--navy); font-weight: 600; }
+    .info-card a:hover { color: var(--blue); }
+    .info-card .sub { font-size: 0.85rem; color: var(--gray); font-weight: 400; margin-top: 2px; }
+
+    /* ── Hours table ────────────────────── */
+    .hours-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .hours-card h3 { font-size: 1rem; color: var(--navy); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--gray-light);
+      font-size: 0.9rem;
+    }
+
+    .hours-row:last-child { border-bottom: none; }
+    .hours-day { color: var(--charcoal); font-weight: 500; }
+    .hours-time { color: var(--blue); font-weight: 600; }
+    .hours-time.closed { color: var(--gray); }
+
+    /* ── Contact form ───────────────────── */
+    .contact-form-box {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 48px;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-form-box h2 { margin-bottom: 8px; }
+    .contact-form-box .sub-text { color: var(--gray); margin-bottom: 32px; }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 15px;
+      background: var(--blue);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 1.05rem;
+      font-weight: 700;
+      font-family: var(--font);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      margin-top: 8px;
+    }
+
+    .submit-btn:hover {
+      background: var(--blue-dark);
+      transform: translateY(-1px);
+    }
+
+    /* ── Map placeholder ────────────────── */
+    .map-section { background: var(--gray-light); padding: 0; }
+
+    .map-placeholder {
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3a6e 100%);
+      height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .map-placeholder::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(26,111,212,0.3) 0%, transparent 70%);
+    }
+
+    .map-content {
+      text-align: center;
+      color: var(--white);
+      position: relative;
+      z-index: 1;
+    }
+
+    .map-pin { font-size: 3rem; margin-bottom: 12px; animation: pulse 2s ease-in-out infinite; }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+
+    .map-content h3 { color: var(--white); font-size: 1.4rem; margin-bottom: 8px; }
+    .map-content p { color: rgba(255,255,255,0.7); font-size: 0.95rem; }
+
+    .service-area-tags {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .area-tag {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.85);
+      font-size: 0.8rem;
+      padding: 5px 14px;
+      border-radius: 50px;
+    }
+
+    /* ── CTA strip ──────────────────────── */
+    .cta-strip {
+      background: var(--blue);
+      padding: 40px 0;
+    }
+
+    .cta-strip-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .cta-strip h3 { color: var(--white); font-size: 1.3rem; }
+    .cta-strip p { color: rgba(255,255,255,0.8); font-size: 0.95rem; margin-top: 4px; }
+
+    .btn-white {
+      background: var(--white);
+      color: var(--blue);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .btn-white:hover {
+      background: var(--gray-light);
+      color: var(--blue-dark);
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 860px) {
+      .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+      .form-row { grid-template-columns: 1fr; }
+      .contact-form-box { padding: 32px 24px; }
+      .cta-strip-inner { flex-direction: column; text-align: center; }
+    }
+
+    /* ── Success message ────────────────── */
+    .success-msg {
+      display: none;
+      background: #f0fdf4;
+      border: 1px solid #86efac;
+      border-radius: var(--radius);
+      padding: 20px;
+      text-align: center;
+      color: #16a34a;
+      font-weight: 600;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <img src="HJSLOGO.png" alt="Henderson Junk Solutions" />
+      </a>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle" onclick="toggleDropdown(event, this)">Services</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="/hot-tub-removal-henderson-nv">Hot Tub Removal</a></li>
+            <li><a href="/estate-cleanout-henderson-nv">Estate Cleanouts</a></li>
+            <li><a href="/furniture-removal-henderson-nv">Furniture Removal</a></li>
+            <li><a href="/appliance-removal-henderson-nv">Appliance Removal</a></li>
+            <li><a href="/garage-cleanout-henderson-nv">Garage Cleanouts</a></li>
+            <li><a href="/construction-debris-removal-henderson-nv">Construction Debris</a></li>
+            <li style="border-top:1px solid var(--border);margin:4px 0;padding:6px 20px;font-size:0.75rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.06em;cursor:default;">Areas We Serve</li>
+            <li><a href="/junk-removal-green-valley-henderson-nv">Green Valley</a></li>
+            <li><a href="/junk-removal-anthem-henderson-nv">Anthem</a></li>
+            <li><a href="/junk-removal-seven-hills-henderson-nv">Seven Hills</a></li>
+            <li><a href="/junk-removal-cadence-henderson-nv">Cadence</a></li>
+            <li><a href="/junk-removal-lake-las-vegas-henderson-nv">Lake Las Vegas</a></li>
+            <li><a href="/junk-removal-whitney-ranch-henderson-nv">Whitney Ranch</a></li>
+            <li><a href="/junk-removal-black-mountain-henderson-nv">Black Mountain</a></li>
+            <li><a href="/junk-removal-boulder-city-nv">Boulder City</a></li>
+          </ul>
+        </li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="/contact" class="active">Contact</a></li>
+        <li><a href="/contact" class="nav-cta">Get a Free Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── PAGE HERO ── -->
+  <div class="page-hero">
+    <div class="container">
+      <span class="section-label" style="background:rgba(255,255,255,0.15);color:white;">Get in Touch</span>
+      <h1>Contact Us</h1>
+      <p>Ready to schedule a pickup or just have a question? We'd love to hear from you.</p>
+    </div>
+  </div>
+
+  <!-- ── CONTACT SECTION ── -->
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: Info -->
+        <div>
+          <h2 style="margin-bottom:8px;">Let's Get Your Space Cleared</h2>
+          <p style="color:var(--gray);margin-bottom:28px;line-height:1.7;">Reach out however works best for you. We respond to all inquiries within 1 business day.</p>
+
+          <div class="contact-info">
+
+            <div class="info-card">
+              <div class="info-icon">📞</div>
+              <div>
+                <h4>Call or Text</h4>
+                <a href="tel:7024909565">(702) 490-9565</a>
+                <p class="sub">Call or text us anytime during business hours</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">✉️</div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:hendersonjunksolutions@gmail.com">hendersonjunksolutions@gmail.com</a>
+                <p class="sub">We typically respond within 1 business day</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">📷</div>
+              <div>
+                <h4>Text Us Photos for a Quote</h4>
+                <a href="sms:7024909565">(702) 490-9565</a>
+                <p class="sub">Snap a few pics of your junk and text them — we'll reply with a rough estimate, no visit needed</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">📍</div>
+              <div>
+                <h4>Service Area</h4>
+                <p>Henderson, NV & Las Vegas Valley</p>
+                <p class="sub">We serve the entire greater Las Vegas metro area</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="hours-card" style="margin-top:20px;">
+            <h3>🕐 Business Hours</h3>
+            <div class="hours-row">
+              <span class="hours-day">Monday – Friday</span>
+              <span class="hours-time">8:00 AM – 4:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Saturday</span>
+              <span class="hours-time closed">Closed</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Sunday</span>
+              <span class="hours-time closed">Closed</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-box">
+          <h2>Send Us a Message</h2>
+          <p class="sub-text">Fill out the form below and we'll get back to you with a free, no-obligation quote.</p>
+          <form id="contactForm" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name *</label>
+                <input id="fname" name="first-name" type="text" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name *</label>
+                <input id="lname" name="last-name" type="text" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input id="phone" name="phone" type="tel" placeholder="(702) 555-0100" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" placeholder="john@email.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address">Service Address *</label>
+              <input id="address" name="address" type="text" placeholder="123 Main St, Henderson, NV" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service...</option>
+                <option>Residential Junk Removal</option>
+                <option>Commercial Cleanout</option>
+                <option>Furniture Removal</option>
+                <option>Appliance Hauling</option>
+                <option>Yard Waste / Debris</option>
+                <option>Estate Cleanout</option>
+                <option>Construction Debris</option>
+                <option>Hot Tub / Spa Removal</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="timing">Preferred Timing</label>
+              <select id="timing" name="timing">
+                <option value="">Select timing...</option>
+                <option>Today (same-day)</option>
+                <option>Tomorrow</option>
+                <option>This week</option>
+                <option>Next week</option>
+                <option>I'm flexible</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Describe the Job</label>
+              <textarea id="message" name="message" placeholder="Tell us about the items you need removed, rough quantity, any access challenges, etc."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">📬 Send My Quote Request</button>
+            <div class="success-msg" id="successMsg">
+              🎉 Thank you! We received your request and will be in touch within 1 business day.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MAP / SERVICE AREA ── -->
+  <div class="map-placeholder">
+    <div class="map-content">
+      <div class="map-pin">📍</div>
+      <h3>Serving the Greater Las Vegas Valley</h3>
+      <p>Licensed & insured to operate throughout Clark County, NV</p>
+      <div class="service-area-tags">
+        <span class="area-tag">Henderson</span>
+        <span class="area-tag">Las Vegas</span>
+        <span class="area-tag">Boulder City</span>
+        <span class="area-tag">Green Valley</span>
+        <span class="area-tag">Enterprise</span>
+        <span class="area-tag">Spring Valley</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CTA STRIP ── -->
+  <div class="cta-strip">
+    <div class="container">
+      <div class="cta-strip-inner">
+        <div>
+          <h3>Ready to Schedule a Pickup?</h3>
+          <p>Give us a call and we'll find a time that works for you.</p>
+        </div>
+        <a href="tel:7024909565" class="btn btn-white">📞 Call (702) 490-9565</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-brand-name">Henderson Junk Solutions</p>
+          <p>Professional junk removal and hauling serving Henderson, Las Vegas, and the surrounding valley. Licensed, insured, and ready to help.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/">Residential Removal</a></li>
+            <li><a href="/">Commercial Cleanouts</a></li>
+            <li><a href="/">Furniture Hauling</a></li>
+            <li><a href="/">Appliance Removal</a></li>
+            <li><a href="/">Estate Cleanouts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact">Get a Quote</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h4>Contact Us</h4>
+          <p><span>📞</span> <strong><a href="tel:7024909565" style="color:white">(702) 490-9565</a></strong></p>
+          <p><span>✉️</span> <strong><a href="mailto:hendersonjunksolutions@gmail.com" style="color:white">hendersonjunksolutions@gmail.com</a></strong></p>
+          <p><span>📍</span> <span>Henderson, NV &amp; Las Vegas Valley</span></p>
+          <p><span>🕐</span> <span>Mon–Fri 8am–4pm, Closed Weekends</span></p>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.1);margin-top:32px;padding-top:28px;">
+        <h4 style="color:rgba(255,255,255,0.5);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px;">Neighborhoods We Serve</h4>
+        <div style="display:flex;flex-wrap:wrap;gap:8px 24px;">
+          <a href="/junk-removal-green-valley-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Green Valley</a>
+          <a href="/junk-removal-anthem-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Anthem</a>
+          <a href="/junk-removal-seven-hills-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Seven Hills</a>
+          <a href="/junk-removal-cadence-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Cadence</a>
+          <a href="/junk-removal-lake-las-vegas-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Lake Las Vegas</a>
+          <a href="/junk-removal-whitney-ranch-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Whitney Ranch</a>
+          <a href="/junk-removal-black-mountain-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Black Mountain</a>
+          <a href="/junk-removal-boulder-city-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Boulder City</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Henderson Junk Solutions. All rights reserved.</span>
+        <span>Serving Henderson, Las Vegas &amp; the Surrounding Valley</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://hendersonjunksolutions.com",
+    "name": "Henderson Junk Solutions",
+    "description": "Professional junk removal and hauling in Henderson, NV and the Las Vegas Valley. Call for a free quote.",
+    "url": "https://hendersonjunksolutions.com",
+    "telephone": "+17024909565",
+    "email": "hendersonjunksolutions@gmail.com",
+    "image": "https://hendersonjunksolutions.com/HJSLOGO.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Henderson",
+      "addressRegion": "NV",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "36.0397",
+      "longitude": "-114.9814"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "16:00"
+      }
+    ]
+  }
+  </script>
+
+  <script>
+    function toggleDropdown(e, el) {
+      e.preventDefault();
+      el.parentElement.classList.toggle('open');
+    }
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+
+    async function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.submit-btn');
+      const msg = document.getElementById('successMsg');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+
+      const response = await fetch('https://formspree.io/f/mykqwlya', {
+        method: 'POST',
+        body: new FormData(e.target),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        btn.textContent = '✅ Message Sent!';
+        btn.style.background = '#16a34a';
+        msg.style.display = 'block';
+        e.target.reset();
+        msg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } else {
+        btn.textContent = '❌ Something went wrong — try again';
+        btn.style.background = '#dc2626';
+        btn.disabled = false;
+      }
+    }
+  </script>
+
+</body>
+</html>

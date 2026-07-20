@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMXC5ZMP8S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KMXC5ZMP8S');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>About Henderson Junk Solutions | Junk Removal Henderson NV</title>
+  <meta name="description" content="Henderson Junk Solutions is a locally owned junk removal company in Henderson, NV. Fast, professional service across the Las Vegas Valley. Call (702) 490-9565." />
+  <meta name="keywords" content="junk removal company Henderson NV, locally owned junk removal Las Vegas, trusted junk hauling Henderson Nevada, professional junk removal Las Vegas Valley" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://hendersonjunksolutions.com/about" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hendersonjunksolutions.com/about" />
+  <meta property="og:title" content="About Henderson Junk Solutions | Junk Removal Henderson NV" />
+  <meta property="og:description" content="Locally owned junk removal in Henderson, NV. Licensed, insured, and trusted by the Las Vegas Valley. Learn our story." />
+  <meta property="og:image" content="https://hendersonjunksolutions.com/HJSLOGO.png" />
+  <meta property="og:site_name" content="Henderson Junk Solutions" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Henderson Junk Solutions | Junk Removal Henderson NV" />
+  <meta name="twitter:description" content="Locally owned junk removal company in Henderson, NV. Licensed, insured & trusted. Call (702) 490-9565." />
+  <meta name="twitter:image" content="https://hendersonjunksolutions.com/HJSLOGO.png" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="favicon-512.png" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ── About section ──────────────────── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+      align-items: center;
+    }
+
+    .about-image-wrap {
+      position: relative;
+    }
+
+    .about-image-main {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3a6e 100%);
+      padding: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 380px;
+    }
+
+    .about-image-main img {
+      max-width: 300px;
+      filter: drop-shadow(0 8px 24px rgba(0,0,0,0.3));
+    }
+
+    .about-badge {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      background: var(--blue);
+      color: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 20px 24px;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .about-badge strong {
+      display: block;
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .about-badge span { font-size: 0.8rem; opacity: 0.85; }
+
+    .about-content .section-label { display: inline-block; }
+    .about-content h2 { margin-bottom: 20px; }
+
+    .about-content p {
+      color: var(--gray);
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+
+    .about-values {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    .value-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .value-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: var(--blue-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .value-item h4 {
+      font-size: 0.95rem;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .value-item p {
+      font-size: 0.85rem;
+      color: var(--gray);
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 860px) {
+      .about-grid { grid-template-columns: 1fr; gap: 48px; }
+      .about-badge { right: 0; bottom: -16px; }
+      .about-values { grid-template-columns: 1fr; }
+    }
+
+    /* ── Stats row ──────────────────────── */
+    .stats-row {
+      background: var(--navy);
+      padding: 56px 0;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      text-align: center;
+    }
+
+    .stat-block strong {
+      display: block;
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #60a5fa;
+      line-height: 1;
+    }
+
+    .stat-block span {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.65);
+      margin-top: 8px;
+      display: block;
+    }
+
+    @media (max-width: 700px) {
+      .stats-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+    }
+
+    /* ── Testimonials ───────────────────── */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    .testimonial-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      box-shadow: var(--shadow-card);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .stars { font-size: 1rem; color: #f59e0b; letter-spacing: 2px; }
+
+    .testimonial-text {
+      font-size: 0.97rem;
+      color: var(--charcoal);
+      line-height: 1.7;
+      flex: 1;
+      font-style: italic;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+
+    .author-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-weight: 700;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    .author-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--navy);
+    }
+
+    .author-location {
+      font-size: 0.82rem;
+      color: var(--gray);
+    }
+
+    /* ── Team section ───────────────────── */
+    .team-section { background: var(--gray-light); }
+
+    .team-card {
+      text-align: center;
+    }
+
+    .team-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--blue) 0%, var(--navy) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 0 auto 16px;
+    }
+
+    .team-card h3 { color: var(--navy); margin-bottom: 4px; }
+    .team-card .role { color: var(--blue); font-size: 0.88rem; font-weight: 600; margin-bottom: 10px; }
+    .team-card p { font-size: 0.9rem; color: var(--gray); line-height: 1.6; }
+  </style>
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <img src="HJSLOGO.png" alt="Henderson Junk Solutions" />
+      </a>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about" class="active">About</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle" onclick="toggleDropdown(event, this)">Services</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="/hot-tub-removal-henderson-nv">Hot Tub Removal</a></li>
+            <li><a href="/estate-cleanout-henderson-nv">Estate Cleanouts</a></li>
+            <li><a href="/furniture-removal-henderson-nv">Furniture Removal</a></li>
+            <li><a href="/appliance-removal-henderson-nv">Appliance Removal</a></li>
+            <li><a href="/garage-cleanout-henderson-nv">Garage Cleanouts</a></li>
+            <li><a href="/construction-debris-removal-henderson-nv">Construction Debris</a></li>
+            <li style="border-top:1px solid var(--border);margin:4px 0;padding:6px 20px;font-size:0.75rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.06em;cursor:default;">Areas We Serve</li>
+            <li><a href="/junk-removal-green-valley-henderson-nv">Green Valley</a></li>
+            <li><a href="/junk-removal-anthem-henderson-nv">Anthem</a></li>
+            <li><a href="/junk-removal-seven-hills-henderson-nv">Seven Hills</a></li>
+            <li><a href="/junk-removal-cadence-henderson-nv">Cadence</a></li>
+            <li><a href="/junk-removal-lake-las-vegas-henderson-nv">Lake Las Vegas</a></li>
+            <li><a href="/junk-removal-whitney-ranch-henderson-nv">Whitney Ranch</a></li>
+            <li><a href="/junk-removal-black-mountain-henderson-nv">Black Mountain</a></li>
+            <li><a href="/junk-removal-boulder-city-nv">Boulder City</a></li>
+          </ul>
+        </li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/contact" class="nav-cta">Get a Free Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── PAGE HERO ── -->
+  <div class="page-hero">
+    <div class="container">
+      <span class="section-label" style="background:rgba(255,255,255,0.15);color:white;">Our Story</span>
+      <h1>The Team Behind<br>Henderson Junk Solutions</h1>
+      <p>Locally owned, community driven, and built on doing the job right every single time.</p>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image-main">
+            <img src="HJSLOGO.png" alt="Henderson Junk Solutions" />
+          </div>
+          <div class="about-badge">
+            <strong>5★</strong>
+            <span>Google Rating</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-label">Who We Are</span>
+          <h2>Henderson's Most Trusted Junk Removal Team</h2>
+          <p>Henderson Junk Solutions was founded with a simple mission: make junk removal in Henderson, NV fast, fair, and stress-free. We're a locally owned and operated business proudly serving Henderson, Las Vegas, and the entire Clark County area.</p>
+          <p>We haul everything — furniture, appliances, construction debris, yard waste, and full property cleanouts. We believe in showing up on time, giving honest upfront pricing, and leaving your property cleaner than we found it. No hidden fees, no surprises.</p>
+          <p>We're committed to keeping the Las Vegas Valley clean. Whenever possible, we donate usable items to local charities and recycle materials responsibly, keeping junk out of Nevada landfills.</p>
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">⏱️</div>
+              <div>
+                <h4>On-Time, Every Time</h4>
+                <p>We respect your schedule and always arrive in the promised window.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">💲</div>
+              <div>
+                <h4>Upfront Pricing</h4>
+                <p>You'll always know the cost before we lift a finger.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">♻️</div>
+              <div>
+                <h4>Eco-Friendly</h4>
+                <p>We donate and recycle to minimize landfill impact.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">🛡️</div>
+              <div>
+                <h4>Licensed & Insured</h4>
+                <p>Full coverage so you're always protected.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS ── -->
+  <div class="stats-row">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-block">
+          <strong>500+</strong>
+          <span>Jobs Completed</span>
+        </div>
+        <div class="stat-block">
+          <strong>5★</strong>
+          <span>Average Rating</span>
+        </div>
+        <div class="stat-block">
+          <strong>100%</strong>
+          <span>Satisfaction Guaranteed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Reviews</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-sub">We let our work speak for itself — but our customers are pretty generous about it too.</p>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"These guys were amazing! Called in the morning and they were at my house by noon. Cleared out my entire garage in under two hours. Super professional, friendly, and the price was exactly what they quoted. Will definitely use again!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JM</div>
+            <div>
+              <div class="author-name">James M.</div>
+              <div class="author-location">Henderson, NV</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"I was dreading clearing out my late mother's home, but Henderson Junk Solutions made it so much easier. They were kind, respectful, and worked quickly. They even pointed out a few items they thought a donation center might want. Truly above and beyond."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SR</div>
+            <div>
+              <div class="author-name">Sandra R.</div>
+              <div class="author-location">Las Vegas, NV</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Best service in the valley, hands down. Needed a hot tub removed from my backyard — no other company would touch it. Henderson Junk Solutions sent a crew, had the right equipment, and got it done in one visit. Reasonably priced too."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DT</div>
+            <div>
+              <div class="author-name">David T.</div>
+              <div class="author-location">Henderson, NV</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Used them for a full office cleanout after our company downsized. They worked after hours to avoid disrupting our team and had the place cleared in one evening. Incredibly efficient and professional. I've already referred them to two other businesses."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">LC</div>
+            <div>
+              <div class="author-name">Lisa C.</div>
+              <div class="author-location">North Las Vegas, NV</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Fantastic experience from start to finish. Booking was easy, they showed up right on time, and the crew was super hard-working. The yard waste from our renovation was gone in 45 minutes. Great value — I'll be a loyal customer."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MK</div>
+            <div>
+              <div class="author-name">Maria K.</div>
+              <div class="author-location">Henderson, NV</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"I've used three different junk removal companies over the years. Henderson Junk Solutions is the only one I'll call from now on. Honest pricing, fast service, and they actually cleaned up after themselves. Five stars, no question."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RP</div>
+            <div>
+              <div class="author-name">Robert P.</div>
+              <div class="author-location">Henderson, NV</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-brand-name">Henderson Junk Solutions</p>
+          <p>Professional junk removal and hauling serving Henderson, Las Vegas, and the surrounding valley. Licensed, insured, and ready to help.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/">Residential Removal</a></li>
+            <li><a href="/">Commercial Cleanouts</a></li>
+            <li><a href="/">Furniture Hauling</a></li>
+            <li><a href="/">Appliance Removal</a></li>
+            <li><a href="/">Estate Cleanouts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact">Get a Quote</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h4>Contact Us</h4>
+          <p><span>📞</span> <strong><a href="tel:7024909565" style="color:white">(702) 490-9565</a></strong></p>
+          <p><span>✉️</span> <strong><a href="mailto:hendersonjunksolutions@gmail.com" style="color:white">hendersonjunksolutions@gmail.com</a></strong></p>
+          <p><span>📍</span> <span>Henderson, NV &amp; Las Vegas Valley</span></p>
+          <p><span>🕐</span> <span>Mon–Fri 8am–4pm, Closed Weekends</span></p>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.1);margin-top:32px;padding-top:28px;">
+        <h4 style="color:rgba(255,255,255,0.5);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px;">Neighborhoods We Serve</h4>
+        <div style="display:flex;flex-wrap:wrap;gap:8px 24px;">
+          <a href="/junk-removal-green-valley-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Green Valley</a>
+          <a href="/junk-removal-anthem-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Anthem</a>
+          <a href="/junk-removal-seven-hills-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Seven Hills</a>
+          <a href="/junk-removal-cadence-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Cadence</a>
+          <a href="/junk-removal-lake-las-vegas-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Lake Las Vegas</a>
+          <a href="/junk-removal-whitney-ranch-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Whitney Ranch</a>
+          <a href="/junk-removal-black-mountain-henderson-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Black Mountain</a>
+          <a href="/junk-removal-boulder-city-nv" style="color:rgba(255,255,255,0.6);font-size:0.85rem;">Boulder City</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Henderson Junk Solutions. All rights reserved.</span>
+        <span>Serving Henderson, Las Vegas &amp; the Surrounding Valley</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleDropdown(e, el) {
+      e.preventDefault();
+      el.parentElement.classList.toggle('open');
+    }
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://hendersonjunksolutions.com",
+    "name": "Henderson Junk Solutions",
+    "description": "Professional junk removal and hauling in Henderson, NV and the Las Vegas Valley. Locally owned, licensed, and insured.",
+    "url": "https://hendersonjunksolutions.com",
+    "telephone": "+17024909565",
+    "email": "hendersonjunksolutions@gmail.com",
+    "image": "https://hendersonjunksolutions.com/HJSLOGO.png",
+    "logo": "https://hendersonjunksolutions.com/HJSLOGO.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Henderson",
+      "addressRegion": "NV",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "16:00"
+      }
+    ]
+  }
+  </script>
+
+</body>
+</html>
