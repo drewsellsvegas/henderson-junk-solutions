@@ -1,0 +1,20 @@
+# Redirect .html URLs to clean URLs (301 permanent)
+/index.html                                         /                                                   301
+/about.html                                         /about                                              301
+/pricing.html                                       /pricing                                            301
+/contact.html                                       /contact                                            301
+/hot-tub-removal-henderson-nv.html                  /hot-tub-removal-henderson-nv                       301
+/estate-cleanout-henderson-nv.html                  /estate-cleanout-henderson-nv                       301
+/furniture-removal-henderson-nv.html                /furniture-removal-henderson-nv                     301
+/appliance-removal-henderson-nv.html                /appliance-removal-henderson-nv                     301
+/garage-cleanout-henderson-nv.html                  /garage-cleanout-henderson-nv                       301
+/construction-debris-removal-henderson-nv.html      /construction-debris-removal-henderson-nv           301
+/junk-removal-green-valley-henderson-nv.html        /junk-removal-green-valley-henderson-nv             301
+/junk-removal-anthem-henderson-nv.html              /junk-removal-anthem-henderson-nv                   301
+/junk-removal-seven-hills-henderson-nv.html         /junk-removal-seven-hills-henderson-nv              301
+/junk-removal-cadence-henderson-nv.html             /junk-removal-cadence-henderson-nv                  301
+/junk-removal-lake-las-vegas-henderson-nv.html      /junk-removal-lake-las-vegas-henderson-nv           301
+/junk-removal-whitney-ranch-henderson-nv.html       /junk-removal-whitney-ranch-henderson-nv            301
+/junk-removal-black-mountain-henderson-nv.html      /junk-removal-black-mountain-henderson-nv           301
+/junk-removal-boulder-city-nv.html                  /junk-removal-boulder-city-nv                       301
+/henderson-junk-solutions.html                      /henderson-junk-solutions                           301
